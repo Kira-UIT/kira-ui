@@ -1,0 +1,22 @@
+.header {
+  position: relative;
+  left: 260px;
+  height: 100vh;
+  width: calc(100% - 260px);
+  background-color: #e4e9f7;
+  transition: all 0.5s ease;
+}
+
+.header-container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.header-container .menu-icon {
+  color: #11101d;
+  font-size: 35px;
+  margin: 0 15px;
+  cursor: pointer;
+}
