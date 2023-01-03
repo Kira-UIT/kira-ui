@@ -1,0 +1,71 @@
+/* default switch */
+.toggle-btn {
+  position: relative;
+  height: 22px;
+  width: 44px;
+  background: #ddd;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.toggle-btn.active {
+  background: #7d2ae8;
+}
+
+.toggle-btn .icon {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 12px;
+  transition: all 0.4s ease;
+}
+
+.toggle-btn.active .icon {
+  left: calc(100% - 18px - 2px);
+  color: #7d2ae8;
+} 
+
+/* small switch */
+.small-switch {
+  width: 36px;
+  height: 18px;
+}
+
+.toggle-btn.small-switch .icon {
+  height: 14px;
+  width: 14px;
+}
+
+.toggle-btn.small-switch.active .icon {
+  left: calc(100% - 14px - 2px);
+  color: #7d2ae8;
+} 
+
+/* large switch */
+.large-switch {
+  width: 56px;
+  height: 28px;
+}
+
+.toggle-btn.large-switch .icon {
+  height: 24px;
+  width: 24px;
+}
+
+.toggle-btn.large-switch.active .icon {
+  left: calc(100% - 24px - 2px);
+  color: #7d2ae8;
+} 
+
+
