@@ -1,5 +1,5 @@
-import { Header, Sidebar, Switch } from "components";
-import { useState, Fragment } from "react";
+import { Button } from "components";
+import { Fragment } from "react";
 import "./App.css";
 
 function App() {
@@ -11,7 +11,8 @@ function App() {
     <Fragment>
       {/* <Sidebar collapsed={collapsed} /> */}
       {/* <Header onCollapse={handleToggleSidebar} /> */}
-      <Switch />
+      {/* <Switch /> */}
+      <Button>Click me</Button>
     </Fragment>
   );
 }
