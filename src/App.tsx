@@ -1,4 +1,4 @@
-import { Button } from "components";
+import { DynamicDigitalClock } from "components";
 import { Fragment } from "react";
 import "./App.css";
 
@@ -12,7 +12,9 @@ function App() {
       {/* <Sidebar collapsed={collapsed} /> */}
       {/* <Header onCollapse={handleToggleSidebar} /> */}
       {/* <Switch /> */}
-      <Button>Click me</Button>
+      {/* <Button>Click me</Button> */}
+      {/* <Loading /> */}
+      <DynamicDigitalClock />
     </Fragment>
   );
 }

@@ -1,0 +1,60 @@
+.time-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  max-width: 550px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 60px;
+}
+
+.time-container .time {
+  display: flex;
+  align-items: center;
+}
+
+.time-container .time .time-colon {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.time-container .time .time-colon .am_pm {
+  position: absolute;
+  top: 0;
+  right: -50px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.time-container .time .time-text {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #f0f8ff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.time-container .time .time-text,
+.time-container .time .colon {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.time-container .time .colon {
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+.time-container .time .time-text .text {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
